@@ -121,6 +121,25 @@
             box-shadow: 0 0px 0px #B06A45, 0 5px 10px rgba(0,0,0,0.2);
         }
 
+        .store-btn--soon {
+            cursor: default;
+            opacity: 0.85;
+        }
+
+        .store-btn--soon:active {
+            transform: none;
+            box-shadow: 0 8px 0px #B06A45, 0 15px 20px rgba(0,0,0,0.2);
+        }
+
+        .store-btn--soon .soon-tag {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            opacity: 0.9;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         /* Sección de Gameplay (Las capturas) */
         .gameplay-showcase {
             display: flex;
@@ -189,8 +208,8 @@
                 <p>¡Deja caer, fusiona y descubre nuevos felinos! Domina las físicas para alcanzar el récord sin que el frasco se desborde.</p>
                 
                 <div class="store-buttons">
-                    <a href="#" class="store-btn">Descargar en iOS</a>
-                    <a href="#" class="store-btn">Obtener en Android</a>
+                    <span class="store-btn store-btn--soon"><span class="soon-tag">Próximamente</span>App Store</span>
+                    <span class="store-btn store-btn--soon"><span class="soon-tag">Próximamente</span>Google Play</span>
                 </div>
             </section>
 
